@@ -1,0 +1,90 @@
+/* Star Variables */ 
+/* End Variables*/
+
+/* Start Global Rules */
+ *{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+} 
+body{
+
+    font-family: 'Work Sans', sans-serif;
+} 
+
+.container{ 
+    padding-left: 15px;
+    padding-right: 15px; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    margin: auto;
+  
+}   
+/*scren small*/
+@media(min-widht:768px){
+    .container{
+        width: 750px;
+    }
+}  
+/*scren medium*/
+@media(min-widht:992px){
+    .container{
+        width: 970px;
+    }
+}  
+/*scren large*/
+@media(min-widht:1200px){
+    .container{
+        width: 1170px;
+    }
+} 
+/*End Globel Rules*/ 
+/*star Header*/ 
+.header{
+    padding: 20px;
+} 
+.header .container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+} 
+.header .logo {
+width: 60px;
+}  
+.header .links {
+  position: relative;   
+} 
+.header .links .icon {
+    width: 30px; 
+    display: flex;
+    flex-wrap: wrap  ;
+    justify-content: flex-end; 
+
+} 
+.header .links .icon span {
+    background-color: #333;
+    margin-bottom: 5px; 
+    height: 2px;
+} 
+.header .links .icon span:first-child {
+    
+     width: 100%;
+} 
+.header .links .icon span:nth-child(2) {
+  
+    width: 50%;
+} 
+.header .links .icon span:last-child { 
+   
+    width: 100%;
+    
+} 
+
+
+
+
+
+
+/*end Header*/
+
